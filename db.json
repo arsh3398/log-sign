@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "Arsh123",
+      "name": "Arsh",
+      "password": "8477986332@Arsh",
+      "email": "admin@in.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "Kumar@123",
+      "name": "Kumar",
+      "password": "8477986332@Arsh",
+      "email": "kumar@in.com",
+      "gender": "male",
+      "role": "Quality",
+      "isactive": false
+    }
+  ],
+  "roles": [
+    {
+      "code": "Staff",
+      "name": "Staff"
+    },
+    {
+      "code": "Quality",
+      "name": "Quality"
+    }
+  ]
+}

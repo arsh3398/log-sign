@@ -1,0 +1,11 @@
+.mid{
+    width: 400px;
+    position: absolute;
+    left: 1300px;
+    top: 200px;
+    box-shadow: 5px 5px 10px rgb(134, 134, 134);
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+}
