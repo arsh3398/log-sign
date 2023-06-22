@@ -10,7 +10,6 @@ import { AuthserviceService } from './authservice.service';
 export class AppComponent implements DoCheck {
   title = 'log-sign';
   ismenurequired=false; 
-  isadminuser=false;
   constructor( private router:Router, private service:AuthserviceService){
   
   }
@@ -21,12 +20,6 @@ export class AppComponent implements DoCheck {
     } else {
       this.ismenurequired=true; 
     }//docheck is a change detection system, evertime we want to check for any changes this docheck hook is called
-    if(this.service.GetUserrole()==='admin'){
-      console.log(this.service.GetUserrole); 
-    }
-    else{
-      this.isadminuser=false;
-      console.log(this.service.GetUserrole())
-    }
+
   }
 }
